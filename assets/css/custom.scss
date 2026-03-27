@@ -29,7 +29,7 @@ body {
 /* Box */
 .post a.cv-btn {
   display: inline-block;
-  padding: 4px 10px;
+  padding: 2px 6px;
   font-size: 0.75rem;
   font-weight: 400;
   text-transform: lowercase;
@@ -63,6 +63,7 @@ body {
   border: 1px solid var(--global-text-color);
   opacity: 1; /* keep same visual intensity */
   cursor: default;
+  text-transform: lowercase;
 }
 
 /* remove hover color change */
