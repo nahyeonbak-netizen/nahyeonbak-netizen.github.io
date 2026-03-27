@@ -33,14 +33,10 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }} 
-      </div>
-    {% endif %}
-
+          <div class="more-info">{{ page.profile.more_info }} </div>
+        {% endif %}
         </div>
         {% endif %}
-      </div>
-    {% endif %}
 
     <div class="clearfix">{{ content }}
 
@@ -50,6 +46,8 @@ layout: default
         <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
     </div>
 
 
