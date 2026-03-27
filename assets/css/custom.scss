@@ -4,7 +4,113 @@
 
 /* Base typography */
 body {
-  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Naviation */
+.navbar-nav .nav-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.navbar-brand {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.navbar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* ===== REMOVE RIGHT YEAR COLUMN ===== */
+.publications h2.bibliography {
+  display: none !important;
+}
+
+
+/* Remove year column completely */
+.publications .row > .col-sm-2 {
+  display: none !important;
+}
+
+/* Make entries full width */
+.publications .row > .col-sm-10 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+/* Make content full width */
+.publications .row {
+  display: block !important;
+}
+
+.publications .col-sm-10 {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+/* ===== REMOVE LEFT BADGE ===== */
+.publications .abbr {
+  display: none !important;
+}
+
+/* ===== REMOVE THUMBNAIL SPACE ===== */
+.publications .teaser {
+  display: none !important;
+}
+
+/* Shrink the profile image container */
+/*.profile {
+    width: 30% !important;
+    margin-bottom: 10px;
+}
+*/
+/* Ensure the image itself fits the new small container */
+/*.profile img {
+    max-width: 100% !important;
+    height: auto !important; 
+} 
+*/
+
+
+
+/* 1. Remove the max-width limit on the main post container */
+.post {
+  max-width: 100% !important;
+}
+
+/* 2. Force the bibliography list and rows to be full width */
+.publications, 
+.bibliography {
+  width: 100% !important;
+}
+
+.bibliography .row {
+  display: flex !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 3. Force the specific column containing the text to expand */
+/* This overrides the 'col-sm-8' or 'col-sm-10' default constraints */
+.bibliography .col-sm-8, 
+.bibliography .col-sm-10, 
+.bibliography .col-sm-12 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 4. Ensure the titles don't wrap prematurely */
+.bibliography .title {
+  display: block;
+  width: 100%;
+  white-space: normal; /* Allows natural wrapping only when truly out of space */
 }
 
 /* Link color */
@@ -16,6 +122,7 @@ body {
   --global-theme-color: #5aa9ff;
 }
 
+/* About page links styled like coauthor links */
 .post a {
   border-bottom: 1px dashed var(--global-theme-color);
   text-decoration: none;
@@ -26,49 +133,45 @@ body {
 }
 
 
-/* Box */
-.post a.cv-btn {
-  display: inline-block;
-  padding: 2px 6px;
-  font-size: 0.75rem;
+
+/* Reduce social icon size on About page */
+.social a i {
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+
+.social a i:hover {
+  opacity: 1;
+}
+
+/* Remove underline for social icons only */
+.social a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.social a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.cv-btn {
+  color: var(--global-text-color) !important;
+  border: 1px solid var(--global-text-color) !important;
   font-weight: 400;
-  text-transform: lowercase;
-  border: 1px solid var(--global-text-color);
-  border-bottom: 1px solid var(--global-text-color); /* kill dashed */
-  
-  border-radius: 3px;
-  text-decoration: none;
-
-  background-color: transparent;
-  color: var(--global-text-color);
-
-  transition: all 0.15s ease-in-out;
+  padding: 4px 10px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 2px;
+  line-height: 1.2;
 }
 
-/* kill dashed rule DEFINITIVELY */
-.post a.cv-btn {
-  border-bottom: 1px solid var(--global-text-color) !important;
-}
-
-/* hover */
-.post a.cv-btn:hover {
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  border-bottom: 1px solid var(--global-theme-color) !important;
-}
-
-.btn.disabled,
-.btn:disabled {
-  pointer-events: none;
-  border: 1px solid var(--global-text-color);
-  opacity: 1; /* keep same visual intensity */
-  cursor: default;
-  text-transform: lowercase;
-}
-
-/* remove hover color change */
-.btn.disabled:hover {
-  color: var(--global-text-color);
-  border: 1px solid var(--global-text-color);
-  background-color: transparent;
+.cv-btn:hover {
+  border: 1px solid var(--global-theme-color) !important;
+  color: var(--global-theme-color) !important; 
+  text-decoration: none !important;
+  opacity: 1;
 }
