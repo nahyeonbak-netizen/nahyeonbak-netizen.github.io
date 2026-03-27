@@ -36,5 +36,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 
 <div style="margin-top:8px;">
-  <a class="cv-btn">Academic CV</a>
+  <span class="cv-btn non-link">Causal Inference</span>
 </div>
