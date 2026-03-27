@@ -5,8 +5,8 @@ permalink: /
 subtitle: PhD Economist & Data Scientist
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: Nahyeon.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Based in: Washington, DC </p>
