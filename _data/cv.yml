@@ -40,75 +40,35 @@ cv:
         end_date: 2014
 
     Experience:
-      - company: Amazon
+      - company: Amazon, PXTCS Benefits Research Team
         position: Economist
         location: Arlington, VA
         start_date: 2023
         end_date: 
         summary: Strategic Initiative Ownership & Executive Influence
         highlights:
-          - Owned end-to-end development of Medical Plan Enrollment Forecasting Model, pioneering innovative methodology that achieved <1% prediction error and generated $205M in cost savings; reduced strategic analysis cycle from 3 months to hours
-          - Shaped VP-level strategy through 4 business memos delivered to annual Benefits Review Committee, directly influencing enterprise benefits decisions 
-          - Defined strategic direction for provider-network cost-control evaluation (tiered-provider and narrow-network approaches). It insights directly informed BXT’s strategy 
-          - Optimized fertility benefits program design, delivering $19M in annual savings while maintaining employee value proposition
-        summary: Organizational Capability Building & Measurement Infrastructure
+          - ads
+          - asd 
+          
+      - company: Amazon, PXTCS Compensation & Benefits
+        position: Economist
+        location: Arlington, VA
+        start_date: 2020
+        end_date: 2023
         highlights:
-          - Established organizational measurement standard by creating Downstream Impact Metrics Framework for internal A to Z Benefits platform–developed when leadership lacked clarity on measuring platform value–now guiding director-level strategic decisions with 30+KPIs across discovery, communication, and value creation.
-          - Created Long-term Economic Value (LEV) methodology, enabling data-driven investment decisions by connecting immediate engagement to long-term health outcomes and cost savings, along with data pipeline development and data quality assessment
-        
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Influenced VP-level wage decisions through causal impact analyses measuring effects of hourly wage changes and internal transfer policies on attrition, hiring, and productivity (DID, Synthetic DID)
+          - Drove 401(k) matching policy for student loan payments – analysis demonstrated value exceeding hourly wage increases, directly influencing enterprise-wide adoption
+          - Led five enterprise conjoint surveys (Benefits, Compensation, Virtual Care, Health Benefits, Earth’s Best Employer) identifying key drivers of hiring and retention; established survey best practices now documented in internal Wiki
+
+      - company: Amazon, Device Economics Team
+        position: Economist
+        location: Seattle, WA
+        start_date: 2019
+        end_date: 2020
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Built foundational expertise in conjoint analysis and demand forecasting models for Amazon devices
+          - Developed consumer preference models informing product pricing and feature prioritization
+    
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
