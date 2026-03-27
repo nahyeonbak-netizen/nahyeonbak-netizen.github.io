@@ -56,3 +56,17 @@ body {
   border-color: var(--global-theme-color);
   border-bottom: 1px solid var(--global-theme-color) !important;
 }
+
+.btn.disabled,
+.btn:disabled {
+  pointer-events: none;
+  opacity: 1; /* keep same visual intensity */
+  cursor: default;
+}
+
+/* remove hover color change */
+.btn.disabled:hover {
+  color: var(--global-text-color);
+  border-color: var(--global-text-color);
+  background-color: transparent;
+}
