@@ -8,48 +8,6 @@ body {
 }
 
 
-/* Link color */
-:root {
-  --global-theme-color: #3a5f8a;
-}
-
-[data-theme="dark"] {
-  --global-theme-color: #5aa9ff;
-}
-
-/* About page links styled like coauthor links */
-.post a {
-  border-bottom: 1px dashed var(--global-theme-color);
-  text-decoration: none;
-}
-
-.post a:hover {
-  border-bottom: 1px solid var(--global-theme-color);
-}
-
-
-
-/* Reduce social icon size on About page */
-.social a i {
-  font-size: 1.8rem;
-  opacity: 0.8;
-}
-
-.social a i:hover {
-  opacity: 1;
-}
-
-/* Remove underline for social icons only */
-.social a {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-.social a:hover {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
 /* 1. Base button style */
 .cv-btn {
   /* Critical: force the box to show all 4 sides and ignore the .post a dash */
