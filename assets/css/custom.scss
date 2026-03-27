@@ -4,25 +4,40 @@
 
 /* Base typography */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 
 /* Naviation */
 .navbar-nav .nav-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 .navbar-brand {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 0.1em;   /* key feature */
   text-transform: uppercase;
 }
 .navbar {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
+/* Headings */
+h1, h2, h3, h4 {  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;   /* key feature */
+}
+
+h5, h6 {
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 26px; }
+h3 { font-size: 21px; }
+h4 { font-size: 18px; }
 
 /* ===== REMOVE RIGHT YEAR COLUMN ===== */
 .publications h2.bibliography {
@@ -174,17 +189,4 @@ body {
   color: var(--global-theme-color) !important; 
   text-decoration: none !important;
   opacity: 1;
-}
-
-.btn.disabled,
-.btn:disabled {
-  pointer-events: none;
-  opacity: 1; /* keep same visual intensity */
-  cursor: default;
-}
-
-.btn.disabled:hover {
-  color: var(--global-text-color);
-  border-color: var(--global-text-color);
-  background-color: transparent;
 }
