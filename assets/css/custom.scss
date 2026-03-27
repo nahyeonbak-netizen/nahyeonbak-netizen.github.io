@@ -86,7 +86,6 @@ h4 { font-size: 18px; }
   font-weight: 400;
   padding: 4px 10px;
   font-size: 0.65rem;
-  text-transform: uppercase;
   text-decoration: none !important;
   display: inline-block;
   margin-right: 6px;
@@ -99,4 +98,20 @@ h4 { font-size: 18px; }
   color: var(--global-theme-color) !important; 
   text-decoration: none !important;
   opacity: 1;
+}
+
+/* Style for cv-btn when used as a static tag (non-link) */
+span.cv-btn, 
+.cv-btn.non-link {
+  cursor: default !important; /* Removes the "hand" icon so users know it's not a link */
+  background-color: transparent;
+  color: var(--global-text-color) !important;
+  border: 1px solid var(--global-text-color) !important;
+  display: inline-block;
+}
+
+.cv-btn.non-link:hover {
+  background-color: transparent !important;
+  color: var(--global-text-color) !important;
+  opacity: 1 !important;
 }
