@@ -38,3 +38,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 <div style="margin-top:8px;">
   <span class="cv-btn non-link">Causal Inference</span>
 </div>
+
+<div style="margin-top:8px;">
+  <a href="" class="cv-btn">Causal Inference</a>
+</div>
