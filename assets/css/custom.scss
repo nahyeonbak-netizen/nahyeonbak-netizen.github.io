@@ -50,39 +50,47 @@ body {
   border-bottom: none !important;
 }
 
+/* 1. Base button style */
 .cv-btn {
+  /* Critical: force the box to show all 4 sides and ignore the .post a dash */
+  display: inline-block !important;
+  border: 1px solid var(--global-text-color) !important; 
   color: var(--global-text-color) !important;
-  border: 1px solid var(--global-text-color) !important;
-  font-weight: 400;
-  padding: 4px 10px;
-  font-size: 0.65rem;
-  text-transform: uppercase;
+  
+  /* Layout and Typography */
+  padding: 4px 10px !important;
+  font-size: 0.65rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
   text-decoration: none !important;
-  display: inline-block;
-  margin-right: 6px;
-  border-radius: 2px;
-  line-height: 1.2;
+  border-radius: 2px !important;
+  line-height: 1.2 !important;
+  margin-right: 6px !important;
+  margin-bottom: 8px !important;
 }
 
-.cv-btn:hover {
-  border: 1px solid var(--global-theme-color) !important;
-  color: var(--global-theme-color) !important; 
+/* 2. Specific fix to stop .post a from adding a dash under the box */
+.post a.cv-btn, 
+.post a.cv-btn:hover {
   text-decoration: none !important;
-  opacity: 1;
+  border-bottom: 1px solid var(--global-text-color) !important; /* Forces solid box bottom */
 }
 
+/* 3. Hover state for links */
+a.cv-btn:hover {
+  border-color: var(--global-theme-color) !important;
+  color: var(--global-theme-color) !important;
+  background-color: transparent !important;
+}
+
+/* 4. Non-link tags (Causal Inference, etc.) */
 span.cv-btn, 
 .cv-btn.non-link {
-  cursor: default !important; /* Removes the "hand" icon so users know it's not a link */
-  background-color: transparent;
-  color: var(--global-text-color) !important;
-  border: 1px solid var(--global-text-color) !important;
-  display: inline-block;
+  cursor: default !important;
 }
 
-/* Ensure these don't change color on hover since they aren't links */
+/* Ensure non-links don't change color on hover */
 .cv-btn.non-link:hover {
-  background-color: transparent !important;
   color: var(--global-text-color) !important;
-  opacity: 1 !important;
+  border-color: var(--global-text-color) !important;
 }
