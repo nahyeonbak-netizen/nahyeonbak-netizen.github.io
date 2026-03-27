@@ -71,19 +71,4 @@ body {
   opacity: 1;
 }
 
-/* Style for cv-btn when used as a static tag (non-link) */
-span.cv-btn, 
-.cv-btn.non-link {
-  cursor: default !important; /* Removes the "hand" icon so users know it's not a link */
-  background-color: transparent;
-  color: var(--global-text-color) !important;
-  border: 1px solid var(--global-text-color) !important;
-  display: inline-block;
-}
 
-/* Ensure these don't change color on hover since they aren't links */
-.cv-btn.non-link:hover {
-  background-color: transparent !important;
-  color: var(--global-text-color) !important;
-  opacity: 1 !important;
-}
