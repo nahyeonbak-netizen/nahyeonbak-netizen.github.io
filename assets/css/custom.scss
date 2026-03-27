@@ -7,46 +7,42 @@ body {
   font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 
+/* Link color */
+:root {
+  --global-theme-color: #3a5f8a;
+}
 
-/* 1. Base button style */
-.cv-btn {
-  /* Critical: force the box to show all 4 sides and ignore the .post a dash */
-  display: inline-block !important;
-  border: 1px solid var(--global-text-color) !important; 
-  color: var(--global-text-color) !important;
+[data-theme="dark"] {
+  --global-theme-color: #5aa9ff;
+}
+
+/* Box */
+.post a.cv-btn {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+
+  border: 1px solid var(--global-text-color);
+  border-bottom: 1px solid var(--global-text-color); /* kill dashed */
   
-  /* Layout and Typography */
-  padding: 4px 10px !important;
-  font-size: 0.65rem !important;
-  font-weight: 400 !important;
-  text-transform: uppercase !important;
-  text-decoration: none !important;
-  border-radius: 2px !important;
-  line-height: 1.2 !important;
-  margin-right: 6px !important;
-  margin-bottom: 8px !important;
+  border-radius: 3px;
+  text-decoration: none;
+
+  background-color: transparent;
+  color: var(--global-text-color);
+
+  transition: all 0.15s ease-in-out;
 }
 
-/* 2. Specific fix to stop .post a from adding a dash under the box */
-.post a.cv-btn, 
+/* kill dashed rule DEFINITIVELY */
+.post a.cv-btn {
+  border-bottom: 1px solid var(--global-text-color) !important;
+}
+
+/* hover */
 .post a.cv-btn:hover {
-  text-decoration: none !important;
-  border-bottom: 1px solid var(--global-text-color) !important; /* Forces solid box bottom */
-}
-
-/* 3. Hover state for links */
-a.cv-btn:hover {
-  background-color: transparent !important;
-}
-
-/* 4. Non-link tags (Causal Inference, etc.) */
-span.cv-btn, 
-.cv-btn.non-link {
-  cursor: default !important;
-}
-
-/* Ensure non-links don't change color on hover */
-.cv-btn.non-link:hover {
-  color: var(--global-text-color) !important;
-  border-color: var(--global-text-color) !important;
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  border-bottom: 1px solid var(--global-theme-color) !important;
 }
