@@ -37,10 +37,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 
 <div style="margin-top:8px;">
-<span class="btn btn-sm disabled">Large-Scale Data</span>
-<span class="btn btn-sm disabled">Causal Inference</span>
-<span class="btn btn-sm disabled">Machine Learning</span>
-<span class="btn btn-sm disabled">Experimental Design</span>
+  <a href="/cv/" class="cv-btn">Large-Scale Data</a>
+  <a href="/cv/" class="cv-btn">Causal Inference</a>
+  <a href="/cv/" class="cv-btn">Machine Learning</a>
+  <a href="/cv/" class="cv-btn">Experimental Design</a>
 </div>
-
-
