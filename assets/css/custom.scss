@@ -115,3 +115,29 @@ span.cv-btn,
   color: var(--global-text-color) !important;
   opacity: 1 !important;
 }
+
+
+
+/* Sidebar Social Styling */
+.social-sidebar {
+  margin-top: 15px;
+  text-align: left; /* Aligns them with your email/location text */
+}
+
+.social-sidebar .contact-icons {
+  font-size: 1.4rem; /* Makes them slightly smaller to fit the sidebar */
+}
+
+.social-sidebar .contact-icons a {
+  margin-right: 10px;
+  text-decoration: none !important;
+  border-bottom: none !important; /* Removes the dashed line fix from earlier */
+}
+
+.social-sidebar .contact-icons i {
+  color: var(--global-text-color);
+}
+
+.social-sidebar .contact-icons i:hover {
+  color: var(--global-theme-color);
+}
