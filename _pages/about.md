@@ -37,7 +37,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 
 
+<span class="btn btn-sm disabled">Large-Scale Data</span>
 <span class="btn btn-sm disabled">Causal Inference</span>
 <span class="btn btn-sm disabled">Machine Learning</span>
-<span class="btn btn-sm disabled">Large-Scale Data Analysis</span>
 <span class="btn btn-sm disabled">Experimental Design</span>
