@@ -4,15 +4,13 @@ cv:
   email: nahyeonbak@gamil.com
   location: Washington, DC
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: PhD Economist and trusted technical advisor with 7+ years' experience shaping organizational strategy through advanced analytics and causal inference. At Amazon, owned end-to-end initiatives generating $224M+ in cost savings, translating ambiguous business challenges into scalable analytical solutions. Recognized for defining methodological standards adopted across teams, influencing VP-level decisions, and building cross-functional partnerships spanning benefits, clinical, pharmacy, and technology organizations. Track record of mentoring economists through promotion cycles and scaling scientific approaches enterprise-wide.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: nahyeonbak-netizen
     - network: LinkedIn
-      username: example
+      username: nahyeonbak
 
   address:
     street: 
@@ -23,40 +21,40 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: University of Washington
+        location: Seattle, WA
+        url: 
+        area: “Essays on Dynamic Consumers’ Brand Choice
+        studyType: PhD in Economics
+        start_date: 2014
+        end_date: 2019
         score: ""
-        courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Advisor: Patrick Bajari
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Minnesota
+        location: Minneapolis, MN
+        area: 
+        studyType: M.S. in Applied Economics
+        start_date: 2012
+        end_date: 2014
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Amazon
+        position: Economist
+        location: Arlington, VA
+        start_date: 2023
+        end_date: 
+        summary: Strategic Initiative Ownership & Executive Influence
         highlights:
-          - Relativity
-          - Description 2.
-
+          - Owned end-to-end development of Medical Plan Enrollment Forecasting Model, pioneering innovative methodology that achieved <1% prediction error and generated $205M in cost savings; reduced strategic analysis cycle from 3 months to hours
+          - Shaped VP-level strategy through 4 business memos delivered to annual Benefits Review Committee, directly influencing enterprise benefits decisions 
+          - Defined strategic direction for provider-network cost-control evaluation (tiered-provider and narrow-network approaches). It insights directly informed BXT’s strategy 
+          - Optimized fertility benefits program design, delivering $19M in annual savings while maintaining employee value proposition
+        summary: Organizational Capability Building & Measurement Infrastructure
+          - Established organizational measurement standard by creating Downstream Impact Metrics Framework for internal A to Z Benefits platform–developed when leadership lacked clarity on measuring platform value–now guiding director-level strategic decisions with 30+KPIs across discovery, communication, and value creation.
+          - Created Long-term Economic Value (LEV) methodology, enabling data-driven investment decisions by connecting immediate engagement to long-term health outcomes and cost savings, along with data pipeline development and data quality assessment
+        
       - company: California Institute of Technology
         position: Visiting Professor
         location: Pasadena, California, US
