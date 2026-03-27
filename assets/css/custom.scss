@@ -60,6 +60,7 @@ body {
 .btn.disabled,
 .btn:disabled {
   pointer-events: none;
+  border: 1px solid var(--global-text-color);
   opacity: 1; /* keep same visual intensity */
   cursor: default;
 }
@@ -67,6 +68,6 @@ body {
 /* remove hover color change */
 .btn.disabled:hover {
   color: var(--global-text-color);
-  border-color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
   background-color: transparent;
 }
