@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD Economist & Data Scientist
 
 profile:
-  align: left
+  align: right
   image: Nahyeon.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
