@@ -175,3 +175,16 @@ body {
   text-decoration: none !important;
   opacity: 1;
 }
+
+.btn.disabled,
+.btn:disabled {
+  pointer-events: none;
+  opacity: 1; /* keep same visual intensity */
+  cursor: default;
+}
+
+.btn.disabled:hover {
+  color: var(--global-text-color);
+  border-color: var(--global-text-color);
+  background-color: transparent;
+}
