@@ -57,6 +57,13 @@ h4 { font-size: 18px; }
   border-bottom: 1px solid var(--global-theme-color);
 }
 
+/* Decrease font size for the sidebar info under the profile picture */
+.profile .more-info {
+  font-size: 0.85rem !important; /* Adjust this number lower to make it even smaller */
+  line-height: 1.4 !important;   /* Adjusts spacing between lines */
+  color: var(--global-text-color);
+  opacity: 0.9;                  /* Optional: makes the text slightly softer */
+}
 
 
 /* Reduce social icon size on About page */
