@@ -16,6 +16,16 @@ body {
   --global-theme-color: #5aa9ff;
 }
 
+.post a {
+  border-bottom: 1px dashed var(--global-theme-color);
+  text-decoration: none;
+}
+
+.post a:hover {
+  border-bottom: 1px solid var(--global-theme-color);
+}
+
+
 /* Box */
 .post a.cv-btn {
   display: inline-block;
