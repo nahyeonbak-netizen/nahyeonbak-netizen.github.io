@@ -45,10 +45,13 @@ cv:
         location: Arlington, VA
         start_date: 2023
         end_date: 
-        summary: Strategic Initiative Ownership & Executive Influence
         highlights:
-          - ads
-          - asd 
+          - Led end-to-end development of medical plan enrollment and pricing models (conditional logit, elasticity), achieving <1% error and driving $205M+ in cost savings through optimized plan design and pricing
+          - Built ML-based medical spending forecasts (XGBoost, LightGBM, Lasso) to evaluate cost scenarios and inform risk-adjusted pricing strategies
+          - Designed and implemented causal inference frameworks (A/B tests, staggered DiD) to measure impact of benefits changes on enrollment, retention, and cost outcomes
+          - Created Long-term Economic Value (LEV) framework linking engagement to downstream health and cost outcomes, enabling investment prioritization
+          - Established measurement infrastructure (30+ KPIs) for benefits platform performance, now guiding director-level strategy and campaign optimization
+          - Drove cross-functional initiatives (e.g., personalized benefits recommendations, vendor/GLP-1 ROI analysis), influencing VP-level decisions and enterprise benefits strategy
           
       - company: Amazon, PXTCS Compensation & Benefits
         position: Economist
@@ -67,6 +70,7 @@ cv:
         end_date: 2020
         highlights:
           - Built foundational expertise in conjoint analysis and demand forecasting models for Amazon devices
+          - Conducted price elasticity analyses using instrumental variable regression to inform dynamic pricing strategies
           - Developed consumer preference models informing product pricing and feature prioritization
     
     Skills:
