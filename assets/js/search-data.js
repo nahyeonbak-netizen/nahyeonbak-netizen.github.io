@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-resume",
-          title: "Resume",
-          description: "Click the PDF download button to download my full resume.",
+  },{id: "nav-résumé",
+          title: "Résumé",
+          description: "Download my full résumé (PDF icon).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
