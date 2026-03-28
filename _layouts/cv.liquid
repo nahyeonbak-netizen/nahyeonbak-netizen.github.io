@@ -100,6 +100,12 @@ layout: default
                   </td>
                 </tr>
               {% endif %}
+              {% if cv.nationality %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Nationality</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+                </tr>
+              {% endif %}
               {% if cv.website %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
