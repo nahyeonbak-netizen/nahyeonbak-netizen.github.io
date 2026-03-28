@@ -149,19 +149,38 @@ span.cv-btn,
 }
 
 
-/*Naviation bar*/.navbar-toggler {
-    display: block !important;
-}
-
-.navbar-collapse.collapse {
+/*Naviation bar*/
+/* 1. Hide the hamburger menu toggle button forever */
+.navbar-toggler {
     display: none !important;
 }
 
-.navbar-collapse.collapse.show {
-    display: block !important;
-    width: 100%;
+/* 2. Force the navbar links to stay visible (unfolded) */
+.navbar-collapse {
+    display: flex !important;
+    flex-basis: auto !important;
 }
 
+/* 3. Ensure the list of links stays in a horizontal row */
 .navbar-nav {
-    flex-direction: column !important;
+    flex-direction: row !important;
 }
+
+/* 4. Add some spacing between links for mobile visibility */
+.nav-item {
+    margin-left: 15px !important;
+}
+
+/* 5. Adjust font size for navbar on very small screens so they fit */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 0.9rem !important;
+    }
+    .nav-link {
+        font-size: 0.8rem !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+
