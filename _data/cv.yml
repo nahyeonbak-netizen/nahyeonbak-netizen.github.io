@@ -78,12 +78,28 @@ cv:
         icon: fa-solid fa-hashtag
         keywords: "Creative Problem-Solving, Research Management, Strategic Thinking"
 
-      - name: Technical Skills
+      - name: Econometrics/Statistics
         icon: fa-solid fa-hashtag
-        keywords: "Causal Inference (DID, Synthetic Controls, Propensity Matching), Discrete Choice Model, Machine Learning, Bayesian Modeling, Conjoint Analysis, Survey Design/Analysis"
-        
+        keywords: "Causal Inference (DID, Synthetic Controls, Propensity Matching), Structural Estimation, Discrete Choice (Logit/Probit/Mixed Logit), Bayesian Hierarchical Models, Survival Analysis (Cox PH, Kaplan-Meier), Conjoint Analysis, Survey Design/Analysis"
+
+      - name: Machine Learning
+        icon: fa-solid fa-hashtag
+        keywords: "Light GBM, Random Forest, Gradient Boosting, Lasso/Ridge Clustering (K-means/Hierarchical)"
+          
       - name: Programming
         icon: fa-solid fa-hashtag
-        keywords: "Python (Polars, Scikit-learn, pandas, NumPy), SQL, Sawtooth, Qualtrics, R, STATA, AWS Quicksight (comparable to Tableau and Power BI), Snowflake AWS S3 (comparable to databricks), Internal Git, AWS SageMaker"
+        keywords: "Python (Polars, Scikit-learn, pandas, NumPy), SQL, R, STATA"
+
+      - name: Data Platforms and Visualization
+        icon: fa-solid fa-hashtag
+        keywords: "Snowflake, Databricks, AWS (S3, SageMaker), Tableau, Power BI, AWS Quicksight"
+        
+      - name: Survey Tools
+        icon: fa-solid fa-hashtag
+        keywords: "Sawtooth (CBC/ACBC), Qualtrics
+        
+      - name: Collaboration Tools
+        icon: fa-solid fa-hashtag
+        keywords: "Git, Jira, Asana"
         
 
