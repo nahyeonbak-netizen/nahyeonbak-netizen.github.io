@@ -149,7 +149,19 @@ span.cv-btn,
 }
 
 
-/*Naviation bar*/
-.navbar-collapse {
-  display: block;
+/*Naviation bar*/.navbar-toggler {
+    display: block !important;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-collapse.collapse.show {
+    display: block !important;
+    width: 100%;
+}
+
+.navbar-nav {
+    flex-direction: column !important;
 }
