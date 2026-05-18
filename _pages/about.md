@@ -12,7 +12,7 @@ profile:
     <p>Based in: Washington, DC </p>
     <p>Email: <a href='nahyeonbak@gmail.com'>nahyeonbak@gmail.com</a> </p>
     <p>LinkedIn: <a href='https://www.linkedin.com/in/nahyeonbak/'>nahyeonbak</a> </p>
-    <p>Focus: Economics / Data Science </p>
+    <p>Focus: Economics/Data Science </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
