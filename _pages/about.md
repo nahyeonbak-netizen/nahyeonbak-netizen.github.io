@@ -6,7 +6,7 @@ subtitle: PhD Economist & Data Scientist
 
 profile:
   align: right
-  image: Nahyeon.jpg
+  image: nahyeonbak.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Based in: Washington, DC </p>
