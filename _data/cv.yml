@@ -104,7 +104,7 @@ cv:
         icon: fa-solid fa-hashtag
         keywords: "Git, Jira, Asana"
 
-   Research Articles:
+   Publications:
       - title: Contamination, Bias, and Correction  in Text-Based Measurement
         authors:
           - Nahyeon Bak
@@ -126,7 +126,7 @@ cv:
         publisher: Journal of Economic Geography
         releaseDate: 2024-08
 
-   Nontechnical Articles:
+   Article:
       - title: Ending the Boom-Bust Memory Chip Cycle
         authors:
           - Nahyeon Bak
