@@ -103,3 +103,12 @@ cv:
       - name: Collaboration Tools
         icon: fa-solid fa-hashtag
         keywords: "Git, Jira, Asana"
+
+     Publications:
+      - title: Contamination, Bias, and Correction in Text-Based Measurement
+        authors:
+          - Nahyeon Bak
+          - Hanbat Jeong
+          - Daisoon Kim
+        publisher: Working Paper
+        releaseDate: 2026-08
