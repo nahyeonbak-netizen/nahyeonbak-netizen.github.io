@@ -157,7 +157,7 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">
               {% if section_title == 'Publications' %}
-                Articles
+                Selected Articles
               {% else %}
                 {{ section_title }}
               {% endif %}
@@ -316,7 +316,7 @@ layout: default
         {% if site.data.resume.publications.size > 0 %}
           <a class="anchor" id="publications"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Articles</h3>
+            <h3 class="card-title font-weight-medium">Selected Articles</h3>
             <div>
               {% assign entries = site.data.resume.publications %}
               {% include cv/publications.liquid %}
