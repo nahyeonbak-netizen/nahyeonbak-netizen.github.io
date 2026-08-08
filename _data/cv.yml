@@ -126,25 +126,4 @@ cv:
         publisher: Journal of Economic Geography
         releaseDate: 2024-08
 
-   Article:
-      - title: Ending the Boom-Bust Memory Chip Cycle
-        authors:
-          - Nahyeon Bak
-          - Daisoon Kim
-        publisher: The Arc Blog, Andersen Institute of Finance & Economics
-        releaseDate: 2026-08
-        url: https://anderseninstitute.org/ending-the-boom-bust-memory-chip-cycle/
-      - title: Most Robo-Advisers Will Never Profit from Wall Street’s AI-Generated Stock Picks
-        authors:
-          - Nahyeon Bak
-          - Daisoon Kim
-        publisher: MarketWatch
-        releaseDate: 2026-08
-        url: https://www.marketwatch.com/story/wall-street-keeps-its-ai-stock-picking-secrets-heres-what-robo-advisers-actually-do-93871e31
-      - title: AI Financial Advisors are Blind to Market Opportunity
-        authors:
-          - Nahyeon Bak
-          - Daisoon Kim
-        publisher: The Arc Blog, Andersen Institute of Finance & Economics
-        releaseDate: 2026-06
-        url: 	https://anderseninstitute.org/ai-financial-advisors-are-blind-to-market-opportunity/   
+   
